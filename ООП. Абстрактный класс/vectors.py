@@ -114,7 +114,6 @@ class MyScreenSaver:
             self.game_display.fill((0, 0, 0))
             self.hue = (self.hue + 1) % 360
             self.color.hsla = (self.hue, 100, 50, 100)
-
             self.knot.set_points()
             self.knot.draw_points(self.game_display, "line", 3, self.color)
             if not self.pause:

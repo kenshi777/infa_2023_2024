@@ -67,7 +67,7 @@ def main():
     for thread in threads:
         thread.start()
 
-    for thread in threads:
+    for thread in threads: 
         thread.join()
 
 if __name__ == "__main__":

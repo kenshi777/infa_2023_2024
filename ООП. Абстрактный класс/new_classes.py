@@ -34,6 +34,8 @@ class A(Base):
         return super().get_score()
     def get_loss(self):
         return super().get_loss()
+    def get_pre(self):
+        return super().get_pre()
 
 
 

@@ -56,7 +56,7 @@ class TextLoader:
         self.index = 0
         self.refresh_file_list()  # Refresh the file list after deserialization
 
-data_folder = "./8/sample/"
+data_folder = "./sample/"
 text_loader = TextLoader(data_folder)
 
 print("Количество текстов в папке:", len(text_loader))

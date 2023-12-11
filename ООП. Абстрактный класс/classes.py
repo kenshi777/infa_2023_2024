@@ -9,10 +9,10 @@ class Base:
         pass
     @abstractmethod
     def get_answer():
-            pass
+        pass
     @abstractmethod
     def get_answer():
-            pass
+        pass
 
     
 
